@@ -81,6 +81,8 @@ def uniVersalSearch(problem, state, frontier, explored, visited, heuristic=nullH
                 break
 
 
+
+
 def getChildren(state, problem, frontier, heuristic=nullHeuristic):
     temp = problem.getSuccessors(state[0])
     for i in temp:
